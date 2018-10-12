@@ -1,34 +1,36 @@
-## shuqu-cli
+# shuqu-cli
 
-### 下载安装
+## 下载安装
 
-`npm install shuqu-cli -g`
+```ssh
+npm install shuqu-cli -g
+```
 
-### 查看帮助
+## 查看帮助
 
 ```ssh
 shuqu -h
 ```
 
-### 命令
+## 命令
 
-* 初始化项目 `shuqu init`
+### 初始化项目 `shuqu init`
 
-    1. 输入项目名称(默认shuqu-project)
-    2. 选择项目模板
-    3. 输入项目描述(默认数趣云前端项目)
-    4. 作者名称(默认shuquyun)
-    5. 是否根据数据库生成项目代码(Yes or No); 
+1. 输入项目名称(默认shuqu-project)
+2. 选择项目模板
+3. 输入项目描述(默认数趣云前端项目)
+4. 作者名称(默认shuquyun)
+5. 是否根据数据库生成项目代码(Yes or No); 
 
-    > No: 直接生成初识项目模板
+> No: 直接生成初识项目模板
 
-    > Yes: 请先在当前目录新建 `db.config.json` 文件并配置,目前只支持生成普通模板
+> Yes: 请先在当前目录新建 `db.config.json` 文件并配置,目前只支持生成普通模板
 
 
-* 添加路由文件 `shuqu add`
+### 添加路由文件 `shuqu add`
     
-    1. 请输入路由名称
-    2. 请选择路由模板
+1. 请输入路由名称
+2. 请选择路由模板
 
 
 ### db.config.json 
