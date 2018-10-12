@@ -1,0 +1,14 @@
+{
+    "DVA+ANTD管理后台模板": {
+        "place": "shuquyun/fbs-web",
+        "branch": "#master"
+    },
+    "dva前端项目模板": {
+        "place": "shuquyun/fbs-web",
+        "branch": "#master"
+    },
+    "移动端项目模板": {
+        "place": "shuquyun/fbs-web",
+        "branch": "#master"
+    }
+}

@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+
+process.env.NODE_PATH = __dirname + '/../node_modules/'
+
+const fs = require('fs');
+const program = require('commander');
+const download = require('download-git-repo');
+const handlebars = require('handlebars');
+const inquirer = require('inquirer');
+const ora = require('ora');
+const chalk = require('chalk');
+const symbols = require('log-symbols');
+
+const { resolve } = require('path')
+const res = command => resolve(__dirname, '../commands/', command)
+
+program.version(require('../package').version)
+
+program.usage('<command>')
+
+program
+    .option('-p --ppp', '暂时为空')
+    .option('-s --sss', '暂时为空')
+    .option('-k --kkk', '暂时为空')
+
+program
+    .command('init')
+    .description('初始化项目')
+    .action(() => {
+        require(res('init'))
+    })
+program
+    .command('add')
+    .description('添加路由文件(单个)')
+    // .alias('router')
+    .action(() => {
+        require(res('add'))
+    })
+
+program.parse(process.argv);
+

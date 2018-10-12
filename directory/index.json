@@ -1,0 +1,22 @@
+{
+    "普通模板": [
+        "index.js",
+        "model.js",
+        "service.js",
+        "components/Filter.js",
+        "components/List.js",
+        "components/Modal.js",
+        "components/Detail.js",
+        "components/Detail.less"
+    ],
+    "高级模板": [
+        "index.js",
+        "model.js",
+        "service.js",
+        "components/Filter.js",
+        "components/List.js",
+        "components/Modal.js",
+        "components/Detail.js",
+        "components/Detail.less"
+    ]
+}
