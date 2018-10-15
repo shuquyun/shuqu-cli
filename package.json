@@ -1,6 +1,6 @@
 {
     "name": "shuqu-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "数趣云前端cli工具",
     "main": "/bin/app",
     "bin": {
