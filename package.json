@@ -8,6 +8,14 @@
     },
     "author": "\"满楼\"",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shuquyun/shuqu-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/shuquyun/shuqu-cli/issues"
+    },
+    "homepage": "https://github.com/shuquyun/shuqu-cli",
     "dependencies": {
         "chalk": "^2.4.1",
         "commander": "^2.18.0",
