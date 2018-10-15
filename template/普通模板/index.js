@@ -143,7 +143,7 @@ ManLou.propTypes = {
 }
 
 export default connect(({
-    manLou, loading
+    manlou, loading
 }) => ({
-    manLou, loading
+    manlou, loading
 }))(ManLou);
