@@ -2,10 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Table, Modal, Tag } from 'antd'
 import { DropOption } from 'components'
-import { Link } from 'react-router-dom'
-import styles from './List.less'
 import { formatDate } from 'utils'
-import { ImageModal } from 'components'
 
 const { confirm } = Modal
 
@@ -57,7 +54,6 @@ const List = ({
     return (
         <Table
             {...tableProps}
-            className={styles.ManLou}
             bordered
             scroll={{ x: 1250 }}
             columns={columns}
