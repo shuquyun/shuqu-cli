@@ -142,4 +142,8 @@ ManLou.propTypes = {
     loading: PropTypes.object,
 }
 
-export default ManLou
+export default connect(({
+    manLou, loading
+}) => ({
+    manLou, loading
+}))(ManLou);
